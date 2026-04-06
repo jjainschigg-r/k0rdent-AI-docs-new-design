@@ -1,0 +1,6 @@
+[     552ms] [INFO] @scalar/api-reference@1.49.4 @ https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.49.4:6
+[     731ms] [WARNING] Document  not found in configList @ https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.49.4:6
+[    2340ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/versions.json:0
+[    2346ms] TypeError: Cannot set properties of undefined (setting 'hidden')
+    at http://127.0.0.1:8000/javascripts/feedback.js:2:17
+[    4005ms] [WARNING] Ignoring Event: localhost @ https://plausible.io/js/pa-6S0x1KqBcDkAQ6nmjTKTl.js:0

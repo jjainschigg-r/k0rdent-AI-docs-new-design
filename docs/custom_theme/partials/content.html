@@ -1,0 +1,16 @@
+{#-
+  Override Material content partial:
+  allow per-page frontmatter `hide_title: true` to suppress auto-generated H1.
+-#}
+{% if "material/tags" in config.plugins and tags %}
+  {% include "partials/tags.html" %}
+{% endif %}
+{% include "partials/actions.html" %}
+{% if "\x3ch1" not in page.content and not (page.meta and page.meta.hide_title) %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}
+

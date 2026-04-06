@@ -1,0 +1,916 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Header" [ref=e3]:
+      - link "API Documentation" [ref=e4] [cursor=pointer]:
+        - /url: ../..
+        - img "logo" [ref=e5]
+      - generic [ref=e7]:
+        - generic:
+          - generic: API Documentation
+        - generic [ref=e9]: Reference (Scalar)
+      - generic [ref=e10]:
+        - radio "Switch to dark mode" [ref=e11]
+        - generic "Switch to dark mode" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - radio "Switch to light mode" [ref=e15]
+  - main [ref=e17]:
+    - article [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - navigation "Sidebar for K0rdent AI API" [ref=e24]:
+            - generic [ref=e25]:
+              - search [ref=e26] [cursor=pointer]:
+                - img [ref=e27]
+                - generic [ref=e30]:
+                  - generic [ref=e31]: Open Search
+                  - text: Search
+                - generic [ref=e32]:
+                  - generic [ref=e33]: "Keyboard Shortcut:"
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: CTRL
+                    - text: ⌃ k
+              - button "Ask AI" [ref=e36] [cursor=pointer]: Ask AI
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - button "Introduction" [ref=e41] [cursor=pointer]:
+                  - generic [ref=e42]: Introduction
+              - listitem [ref=e43]:
+                - generic [ref=e46]: Compute
+                - list [ref=e47]:
+                  - listitem [ref=e48]:
+                    - button "clusters Open Group" [ref=e50] [cursor=pointer]:
+                      - generic [ref=e51]: clusters
+                      - generic [ref=e52]:
+                        - img [ref=e53]
+                        - generic [ref=e56]: Open Group
+                  - listitem [ref=e57]:
+                    - button "kubeconfigs Open Group" [ref=e59] [cursor=pointer]:
+                      - generic [ref=e60]: kubeconfigs
+                      - generic [ref=e61]:
+                        - img [ref=e62]
+                        - generic [ref=e65]: Open Group
+                  - listitem [ref=e66]:
+                    - button "instances Open Group" [ref=e68] [cursor=pointer]:
+                      - generic [ref=e69]: instances
+                      - generic [ref=e70]:
+                        - img [ref=e71]
+                        - generic [ref=e74]: Open Group
+                  - listitem [ref=e75]:
+                    - button "networks Open Group" [ref=e77] [cursor=pointer]:
+                      - generic [ref=e78]: networks
+                      - generic [ref=e79]:
+                        - img [ref=e80]
+                        - generic [ref=e83]: Open Group
+                  - listitem [ref=e84]:
+                    - button "addresses Open Group" [ref=e86] [cursor=pointer]:
+                      - generic [ref=e87]: addresses
+                      - generic [ref=e88]:
+                        - img [ref=e89]
+                        - generic [ref=e92]: Open Group
+              - listitem [ref=e93]:
+                - generic [ref=e96]: Infrastructure
+                - list [ref=e97]:
+                  - listitem [ref=e98]:
+                    - button "servers Open Group" [ref=e100] [cursor=pointer]:
+                      - generic [ref=e101]: servers
+                      - generic [ref=e102]:
+                        - img [ref=e103]
+                        - generic [ref=e106]: Open Group
+              - listitem [ref=e107]:
+                - generic [ref=e110]: Organizations
+                - list [ref=e111]:
+                  - listitem [ref=e112]:
+                    - button "organizations Open Group" [ref=e114] [cursor=pointer]:
+                      - generic [ref=e115]: organizations
+                      - generic [ref=e116]:
+                        - img [ref=e117]
+                        - generic [ref=e120]: Open Group
+              - listitem [ref=e121]:
+                - generic [ref=e124]: Projects
+                - list [ref=e125]:
+                  - listitem [ref=e126]:
+                    - button "projects Open Group" [ref=e128] [cursor=pointer]:
+                      - generic [ref=e129]: projects
+                      - generic [ref=e130]:
+                        - img [ref=e131]
+                        - generic [ref=e134]: Open Group
+              - listitem [ref=e135]:
+                - generic [ref=e138]: Authentication
+                - list [ref=e139]:
+                  - listitem [ref=e140]:
+                    - button "token Open Group" [ref=e142] [cursor=pointer]:
+                      - generic [ref=e143]: token
+                      - generic [ref=e144]:
+                        - img [ref=e145]
+                        - generic [ref=e148]: Open Group
+                  - listitem [ref=e149]:
+                    - button "introspect Open Group" [ref=e151] [cursor=pointer]:
+                      - generic [ref=e152]: introspect
+                      - generic [ref=e153]:
+                        - img [ref=e154]
+                        - generic [ref=e157]: Open Group
+                  - listitem [ref=e158]:
+                    - button "check Open Group" [ref=e160] [cursor=pointer]:
+                      - generic [ref=e161]: check
+                      - generic [ref=e162]:
+                        - img [ref=e163]
+                        - generic [ref=e166]: Open Group
+                  - listitem [ref=e167]:
+                    - button "revoke Open Group" [ref=e169] [cursor=pointer]:
+                      - generic [ref=e170]: revoke
+                      - generic [ref=e171]:
+                        - img [ref=e172]
+                        - generic [ref=e175]: Open Group
+              - listitem [ref=e176]:
+                - generic [ref=e179]: IAM
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - button "users Open Group" [ref=e183] [cursor=pointer]:
+                      - generic [ref=e184]: users
+                      - generic [ref=e185]:
+                        - img [ref=e186]
+                        - generic [ref=e189]: Open Group
+                  - listitem [ref=e190]:
+                    - button "roles Open Group" [ref=e192] [cursor=pointer]:
+                      - generic [ref=e193]: roles
+                      - generic [ref=e194]:
+                        - img [ref=e195]
+                        - generic [ref=e198]: Open Group
+                  - listitem [ref=e199]:
+                    - button "groups Open Group" [ref=e201] [cursor=pointer]:
+                      - generic [ref=e202]: groups
+                      - generic [ref=e203]:
+                        - img [ref=e204]
+                        - generic [ref=e207]: Open Group
+                  - listitem [ref=e208]:
+                    - button "policies Open Group" [ref=e210] [cursor=pointer]:
+                      - generic [ref=e211]: policies
+                      - generic [ref=e212]:
+                        - img [ref=e213]
+                        - generic [ref=e216]: Open Group
+                  - listitem [ref=e217]:
+                    - button "apikeys Open Group" [ref=e219] [cursor=pointer]:
+                      - generic [ref=e220]: apikeys
+                      - generic [ref=e221]:
+                        - img [ref=e222]
+                        - generic [ref=e225]: Open Group
+                  - listitem [ref=e226]:
+                    - button "serviceaccounts Open Group" [ref=e228] [cursor=pointer]:
+                      - generic [ref=e229]: serviceaccounts
+                      - generic [ref=e230]:
+                        - img [ref=e231]
+                        - generic [ref=e234]: Open Group
+                  - listitem [ref=e235]:
+                    - button "providers Open Group" [ref=e237] [cursor=pointer]:
+                      - generic [ref=e238]: providers
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - generic [ref=e243]: Open Group
+              - listitem [ref=e245]:
+                - button "Models Open Group" [ref=e247] [cursor=pointer]:
+                  - generic [ref=e248]: Models
+                  - generic [ref=e249]:
+                    - img [ref=e250]
+                    - generic [ref=e253]: Open Group
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e256] [cursor=pointer]:
+                  - img [ref=e257]
+                  - text: VS Code
+                  - img [ref=e259]
+                - generic [ref=e262] [cursor=pointer]:
+                  - img [ref=e263]
+                  - text: Cursor
+                  - img [ref=e265]
+                - generic [ref=e268]:
+                  - img [ref=e269]
+                  - text: Generate MCP
+                  - img [ref=e273]
+              - generic [ref=e276]:
+                - link "Powered by Scalar" [ref=e278] [cursor=pointer]:
+                  - /url: https://www.scalar.com
+                - button "Set light mode" [pressed] [ref=e279] [cursor=pointer]:
+                  - generic "Set light mode" [ref=e282]
+          - main "Open API Documentation for K0rdent AI API" [ref=e285]:
+            - generic [ref=e286]:
+              - generic "Developer Tools" [ref=e287]:
+                - generic [ref=e288]:
+                  - button "Developer Tools" [ref=e291] [cursor=pointer]:
+                    - img [ref=e292]
+                    - text: Developer Tools
+                  - button "Configure" [ref=e296] [cursor=pointer]:
+                    - text: Configure
+                    - img [ref=e297]
+                  - button "Share" [ref=e301] [cursor=pointer]:
+                    - text: Share
+                    - img [ref=e302]
+                  - button "Deploy" [ref=e306] [cursor=pointer]:
+                    - text: Deploy
+                    - img [ref=e307]
+              - region "Introduction" [ref=e311]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]:
+                    - generic [ref=e314]: v0.2.0-draft
+                    - generic [ref=e315]: OAS 3.1.0
+                  - heading "K0rdent AI API" [level=1] [ref=e318]
+                  - generic [ref=e320]:
+                    - generic [ref=e321]:
+                      - generic [ref=e322]:
+                        - button "Download OpenAPI Document" [ref=e323] [cursor=pointer]:
+                          - generic [ref=e324]: Download OpenAPI Document
+                        - button "Download OpenAPI Document" [ref=e325] [cursor=pointer]:
+                          - generic [ref=e326]: Download OpenAPI Document
+                      - generic [ref=e329]:
+                        - paragraph [ref=e330]:
+                          - text: OpenAPI specification for the K0rdent AI GPU-as-a-Service platform.
+                          - strong [ref=e331]: "Custom Extensions:"
+                        - list [ref=e332]:
+                          - listitem [ref=e333]:
+                            - code [ref=e334]: x-visibility
+                            - text: ": Endpoint visibility —"
+                            - code [ref=e335]: internal
+                            - text: (Atlas only),
+                            - code [ref=e336]: public
+                            - text: (Arc only),
+                            - code [ref=e337]: "[internal, public]"
+                            - text: (common)
+                          - listitem [ref=e338]:
+                            - code [ref=e339]: x-status
+                            - text: ": Implementation status —"
+                            - code [ref=e340]: mvp
+                            - text: ","
+                            - code [ref=e341]: tbd
+                            - text: ","
+                            - code [ref=e342]: blocked
+                            - text: ","
+                            - code [ref=e343]: stretch
+                          - listitem [ref=e344]:
+                            - code [ref=e345]: x-source
+                            - text: ": Source document reference or"
+                            - code [ref=e346]: TBD
+                            - text: for fields pending confirmation
+                            - strong [ref=e347]: "Pagination:"
+                            - text: Cursor-based using
+                            - code [ref=e348]: pageToken
+                            - text: and
+                            - code [ref=e349]: pageSize
+                            - text: query parameters.
+                            - strong [ref=e350]: "Error Model:"
+                            - text: Standard
+                            - code [ref=e351]: "{ error: { code, message, details[] } }"
+                            - text: envelope.
+                    - generic [ref=e354]:
+                      - generic [ref=e355]:
+                        - generic [ref=e356]: Server
+                        - generic [ref=e358]:
+                          - generic [ref=e359]: "Server:"
+                          - generic [ref=e360]: https://api.k0rdent.ai
+                        - paragraph [ref=e362]: K0rdent AI API Gateway
+                      - region "Authentication Required" [ref=e365]:
+                        - generic [ref=e366]:
+                          - button "Authentication Required" [disabled] [expanded] [ref=e367]:
+                            - heading "Authentication Required" [level=2] [ref=e368]:
+                              - generic [ref=e370]:
+                                - generic [ref=e371]: Authentication
+                                - generic [ref=e372] [cursor=pointer]: Required
+                          - 'button "Selected Auth Type: bearerAuth" [ref=e375] [cursor=pointer]':
+                            - generic [ref=e376]: "Selected Auth Type:"
+                            - text: bearerAuth
+                            - img [ref=e377]
+                        - generic [ref=e382]:
+                          - paragraph [ref=e385]: Bearer token authentication using OAuth2/OIDC tokens
+                          - generic [ref=e386]:
+                            - generic [ref=e387]: Bearer Token
+                            - text: ":"
+                          - textbox "Bearer Token Bearer Token" [ref=e389]:
+                            - /placeholder: Token
+                          - button "Show Password" [ref=e390] [cursor=pointer]:
+                            - img [ref=e391]
+                            - generic [ref=e394]: Show Password
+                      - generic [ref=e396]:
+                        - generic [ref=e397]: Client Libraries
+                        - tablist "Client Libraries" [ref=e398]:
+                          - generic [ref=e399]:
+                            - tab "Shell" [selected] [ref=e400] [cursor=pointer]:
+                              - img [ref=e402]
+                              - generic [ref=e404]: Shell
+                            - tab "Ruby" [ref=e405] [cursor=pointer]:
+                              - img [ref=e407]
+                              - generic [ref=e409]: Ruby
+                            - tab "Node.js" [ref=e410] [cursor=pointer]:
+                              - img [ref=e412]
+                              - generic [ref=e415]: Node.js
+                            - tab "PHP" [ref=e416] [cursor=pointer]:
+                              - img [ref=e418]
+                              - generic [ref=e420]: PHP
+                            - tab "Python" [ref=e421] [cursor=pointer]:
+                              - img [ref=e423]
+                              - generic [ref=e425]: Python
+                            - button "More Select from all clients" [ref=e427] [cursor=pointer]:
+                              - generic [ref=e431]: More
+                              - generic [ref=e432]: Select from all clients
+                        - tabpanel "Shell" [ref=e434]: Shell Curl
+              - generic [ref=e435]:
+                - region "clusters (Collapsed)" [ref=e437]:
+                  - generic [ref=e440]:
+                    - heading "clusters (Collapsed)" [level=2] [ref=e442]:
+                      - text: clusters
+                      - generic [ref=e443]: (Collapsed)
+                    - button "Copy link" [ref=e444] [cursor=pointer]:
+                      - generic [ref=e447]: Copy link
+                  - generic [ref=e449]:
+                    - paragraph [ref=e452]: Kubernetes cluster management
+                    - group "clusters Operations" [ref=e454]:
+                      - generic [ref=e456]:
+                        - generic [ref=e457]: clusters
+                        - text: Operations
+                      - list "clusters endpoints" [ref=e459]:
+                        - listitem [ref=e460]:
+                          - generic [ref=e461] [cursor=pointer]:
+                            - generic [ref=e462]: get
+                            - generic [ref=e463]: "/v1/regions/{region}/projects/{project}/compute/clusters"
+                        - listitem [ref=e464]:
+                          - generic [ref=e465] [cursor=pointer]:
+                            - generic [ref=e466]: post
+                            - generic [ref=e467]: "/v1/regions/{region}/projects/{project}/compute/clusters"
+                        - listitem [ref=e468]:
+                          - generic [ref=e469] [cursor=pointer]:
+                            - generic [ref=e470]: get
+                            - generic [ref=e471]: "/v1/regions/{region}/projects/{project}/compute/clusters/{id}"
+                        - listitem [ref=e472]:
+                          - generic [ref=e473] [cursor=pointer]:
+                            - generic [ref=e474]: patch
+                            - generic [ref=e475]: "/v1/regions/{region}/projects/{project}/compute/clusters/{id}"
+                        - listitem [ref=e476]:
+                          - generic [ref=e477] [cursor=pointer]:
+                            - generic [ref=e478]: delete
+                            - generic [ref=e479]: "/v1/regions/{region}/projects/{project}/compute/clusters/{id}"
+                  - button "Show all clusters endpoints" [ref=e480] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e481]
+                - region "kubeconfigs (Collapsed)" [ref=e485]:
+                  - generic [ref=e488]:
+                    - heading "kubeconfigs (Collapsed)" [level=2] [ref=e490]:
+                      - text: kubeconfigs
+                      - generic [ref=e491]: (Collapsed)
+                    - button "Copy link" [ref=e492] [cursor=pointer]:
+                      - generic [ref=e495]: Copy link
+                  - generic [ref=e497]:
+                    - paragraph [ref=e500]: Kubeconfig issuance and management
+                    - group "kubeconfigs Operations" [ref=e502]:
+                      - generic [ref=e504]:
+                        - generic [ref=e505]: kubeconfigs
+                        - text: Operations
+                      - list "kubeconfigs endpoints" [ref=e507]:
+                        - listitem [ref=e508]:
+                          - generic [ref=e509] [cursor=pointer]:
+                            - generic [ref=e510]: get
+                            - generic [ref=e511]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs"
+                        - listitem [ref=e512]:
+                          - generic [ref=e513] [cursor=pointer]:
+                            - generic [ref=e514]: post
+                            - generic [ref=e515]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs"
+                        - listitem [ref=e516]:
+                          - generic [ref=e517] [cursor=pointer]:
+                            - generic [ref=e518]: delete
+                            - generic [ref=e519]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs/{id}"
+                        - listitem [ref=e520]:
+                          - generic [ref=e521] [cursor=pointer]:
+                            - generic [ref=e522]: get
+                            - generic [ref=e523]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs/{id}/download"
+                  - button "Show all kubeconfigs endpoints" [ref=e524] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e525]
+                - region "instances (Collapsed)" [ref=e529]:
+                  - generic [ref=e532]:
+                    - heading "instances (Collapsed)" [level=2] [ref=e534]:
+                      - text: instances
+                      - generic [ref=e535]: (Collapsed)
+                    - button "Copy link" [ref=e536] [cursor=pointer]:
+                      - generic [ref=e539]: Copy link
+                  - generic [ref=e541]:
+                    - paragraph [ref=e544]: VM and baremetal instance lifecycle
+                    - group "instances Operations" [ref=e546]:
+                      - generic [ref=e548]:
+                        - generic [ref=e549]: instances
+                        - text: Operations
+                      - list "instances endpoints" [ref=e551]:
+                        - listitem [ref=e552]:
+                          - generic [ref=e553] [cursor=pointer]:
+                            - generic [ref=e554]: get
+                            - generic [ref=e555]: "/v1/regions/{region}/projects/{project}/compute/instances"
+                        - listitem [ref=e556]:
+                          - generic [ref=e557] [cursor=pointer]:
+                            - generic [ref=e558]: post
+                            - generic [ref=e559]: "/v1/regions/{region}/projects/{project}/compute/instances"
+                        - listitem [ref=e560]:
+                          - generic [ref=e561] [cursor=pointer]:
+                            - generic [ref=e562]: get
+                            - generic [ref=e563]: "/v1/regions/{region}/projects/{project}/compute/instances/{id}"
+                        - listitem [ref=e564]:
+                          - generic [ref=e565] [cursor=pointer]:
+                            - generic [ref=e566]: patch
+                            - generic [ref=e567]: "/v1/regions/{region}/projects/{project}/compute/instances/{id}"
+                        - listitem [ref=e568]:
+                          - generic [ref=e569] [cursor=pointer]:
+                            - generic [ref=e570]: delete
+                            - generic [ref=e571]: "/v1/regions/{region}/projects/{project}/compute/instances/{id}"
+                  - button "Show all instances endpoints" [ref=e572] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e573]
+                - region "networks (Collapsed)" [ref=e577]:
+                  - generic [ref=e580]:
+                    - heading "networks (Collapsed)" [level=2] [ref=e582]:
+                      - text: networks
+                      - generic [ref=e583]: (Collapsed)
+                    - button "Copy link" [ref=e584] [cursor=pointer]:
+                      - generic [ref=e587]: Copy link
+                  - generic [ref=e589]:
+                    - paragraph [ref=e592]: Network configuration and topology
+                    - group "networks Operations" [ref=e594]:
+                      - generic [ref=e596]:
+                        - generic [ref=e597]: networks
+                        - text: Operations
+                      - list "networks endpoints" [ref=e599]:
+                        - listitem [ref=e600]:
+                          - generic [ref=e601] [cursor=pointer]:
+                            - generic [ref=e602]: get
+                            - generic [ref=e603]: "/v1/regions/{region}/projects/{project}/compute/networks"
+                        - listitem [ref=e604]:
+                          - generic [ref=e605] [cursor=pointer]:
+                            - generic [ref=e606]: post
+                            - generic [ref=e607]: "/v1/regions/{region}/projects/{project}/compute/networks"
+                        - listitem [ref=e608]:
+                          - generic [ref=e609] [cursor=pointer]:
+                            - generic [ref=e610]: get
+                            - generic [ref=e611]: "/v1/regions/{region}/projects/{project}/compute/networks/{id}"
+                        - listitem [ref=e612]:
+                          - generic [ref=e613] [cursor=pointer]:
+                            - generic [ref=e614]: patch
+                            - generic [ref=e615]: "/v1/regions/{region}/projects/{project}/compute/networks/{id}"
+                        - listitem [ref=e616]:
+                          - generic [ref=e617] [cursor=pointer]:
+                            - generic [ref=e618]: delete
+                            - generic [ref=e619]: "/v1/regions/{region}/projects/{project}/compute/networks/{id}"
+                        - listitem [ref=e620]:
+                          - generic [ref=e621] [cursor=pointer]:
+                            - generic [ref=e622]: get
+                            - generic [ref=e623]: "/v1/regions/{region}/projects/{project}/compute/subnets"
+                        - listitem [ref=e624]:
+                          - generic [ref=e625] [cursor=pointer]:
+                            - generic [ref=e626]: get
+                            - generic [ref=e627]: "/v1/regions/{region}/projects/{project}/compute/subnets/{id}"
+                  - button "Show all networks endpoints" [ref=e628] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e629]
+        - region "Notifications alt+T":
+          - list
+      - generic [ref=e640]:
+        - generic [ref=e641]:
+          - navigation "Sidebar for K0rdent AI API" [ref=e642]:
+            - generic [ref=e643]:
+              - search [ref=e644] [cursor=pointer]:
+                - img [ref=e645]
+                - generic [ref=e648]:
+                  - generic [ref=e649]: Open Search
+                  - text: Search
+                - generic [ref=e650]:
+                  - generic [ref=e651]: "Keyboard Shortcut:"
+                  - generic [ref=e652]:
+                    - generic [ref=e653]: CTRL
+                    - text: ⌃ k
+              - button "Ask AI" [ref=e654] [cursor=pointer]: Ask AI
+            - list [ref=e657]:
+              - listitem [ref=e658]:
+                - button "Introduction" [ref=e659] [cursor=pointer]:
+                  - generic [ref=e660]: Introduction
+              - listitem [ref=e661]:
+                - generic [ref=e664]: Compute
+                - list [ref=e665]:
+                  - listitem [ref=e666]:
+                    - button "clusters Open Group" [ref=e668] [cursor=pointer]:
+                      - generic [ref=e669]: clusters
+                      - generic [ref=e670]:
+                        - img [ref=e671]
+                        - generic [ref=e674]: Open Group
+                  - listitem [ref=e675]:
+                    - button "kubeconfigs Open Group" [ref=e677] [cursor=pointer]:
+                      - generic [ref=e678]: kubeconfigs
+                      - generic [ref=e679]:
+                        - img [ref=e680]
+                        - generic [ref=e683]: Open Group
+                  - listitem [ref=e684]:
+                    - button "instances Open Group" [ref=e686] [cursor=pointer]:
+                      - generic [ref=e687]: instances
+                      - generic [ref=e688]:
+                        - img [ref=e689]
+                        - generic [ref=e692]: Open Group
+                  - listitem [ref=e693]:
+                    - button "networks Open Group" [ref=e695] [cursor=pointer]:
+                      - generic [ref=e696]: networks
+                      - generic [ref=e697]:
+                        - img [ref=e698]
+                        - generic [ref=e701]: Open Group
+                  - listitem [ref=e702]:
+                    - button "addresses Open Group" [ref=e704] [cursor=pointer]:
+                      - generic [ref=e705]: addresses
+                      - generic [ref=e706]:
+                        - img [ref=e707]
+                        - generic [ref=e710]: Open Group
+              - listitem [ref=e711]:
+                - generic [ref=e714]: Infrastructure
+                - list [ref=e715]:
+                  - listitem [ref=e716]:
+                    - button "servers Open Group" [ref=e718] [cursor=pointer]:
+                      - generic [ref=e719]: servers
+                      - generic [ref=e720]:
+                        - img [ref=e721]
+                        - generic [ref=e724]: Open Group
+              - listitem [ref=e725]:
+                - generic [ref=e728]: Organizations
+                - list [ref=e729]:
+                  - listitem [ref=e730]:
+                    - button "organizations Open Group" [ref=e732] [cursor=pointer]:
+                      - generic [ref=e733]: organizations
+                      - generic [ref=e734]:
+                        - img [ref=e735]
+                        - generic [ref=e738]: Open Group
+              - listitem [ref=e739]:
+                - generic [ref=e742]: Projects
+                - list [ref=e743]:
+                  - listitem [ref=e744]:
+                    - button "projects Open Group" [ref=e746] [cursor=pointer]:
+                      - generic [ref=e747]: projects
+                      - generic [ref=e748]:
+                        - img [ref=e749]
+                        - generic [ref=e752]: Open Group
+              - listitem [ref=e753]:
+                - generic [ref=e756]: Authentication
+                - list [ref=e757]:
+                  - listitem [ref=e758]:
+                    - button "token Open Group" [ref=e760] [cursor=pointer]:
+                      - generic [ref=e761]: token
+                      - generic [ref=e762]:
+                        - img [ref=e763]
+                        - generic [ref=e766]: Open Group
+                  - listitem [ref=e767]:
+                    - button "introspect Open Group" [ref=e769] [cursor=pointer]:
+                      - generic [ref=e770]: introspect
+                      - generic [ref=e771]:
+                        - img [ref=e772]
+                        - generic [ref=e775]: Open Group
+                  - listitem [ref=e776]:
+                    - button "check Open Group" [ref=e778] [cursor=pointer]:
+                      - generic [ref=e779]: check
+                      - generic [ref=e780]:
+                        - img [ref=e781]
+                        - generic [ref=e784]: Open Group
+                  - listitem [ref=e785]:
+                    - button "revoke Open Group" [ref=e787] [cursor=pointer]:
+                      - generic [ref=e788]: revoke
+                      - generic [ref=e789]:
+                        - img [ref=e790]
+                        - generic [ref=e793]: Open Group
+              - listitem [ref=e794]:
+                - generic [ref=e797]: IAM
+                - list [ref=e798]:
+                  - listitem [ref=e799]:
+                    - button "users Open Group" [ref=e801] [cursor=pointer]:
+                      - generic [ref=e802]: users
+                      - generic [ref=e803]:
+                        - img [ref=e804]
+                        - generic [ref=e807]: Open Group
+                  - listitem [ref=e808]:
+                    - button "roles Open Group" [ref=e810] [cursor=pointer]:
+                      - generic [ref=e811]: roles
+                      - generic [ref=e812]:
+                        - img [ref=e813]
+                        - generic [ref=e816]: Open Group
+                  - listitem [ref=e817]:
+                    - button "groups Open Group" [ref=e819] [cursor=pointer]:
+                      - generic [ref=e820]: groups
+                      - generic [ref=e821]:
+                        - img [ref=e822]
+                        - generic [ref=e825]: Open Group
+                  - listitem [ref=e826]:
+                    - button "policies Open Group" [ref=e828] [cursor=pointer]:
+                      - generic [ref=e829]: policies
+                      - generic [ref=e830]:
+                        - img [ref=e831]
+                        - generic [ref=e834]: Open Group
+                  - listitem [ref=e835]:
+                    - button "apikeys Open Group" [ref=e837] [cursor=pointer]:
+                      - generic [ref=e838]: apikeys
+                      - generic [ref=e839]:
+                        - img [ref=e840]
+                        - generic [ref=e843]: Open Group
+                  - listitem [ref=e844]:
+                    - button "serviceaccounts Open Group" [ref=e846] [cursor=pointer]:
+                      - generic [ref=e847]: serviceaccounts
+                      - generic [ref=e848]:
+                        - img [ref=e849]
+                        - generic [ref=e852]: Open Group
+                  - listitem [ref=e853]:
+                    - button "providers Open Group" [ref=e855] [cursor=pointer]:
+                      - generic [ref=e856]: providers
+                      - generic [ref=e857]:
+                        - img [ref=e858]
+                        - generic [ref=e861]: Open Group
+              - listitem [ref=e863]:
+                - button "Models Open Group" [ref=e865] [cursor=pointer]:
+                  - generic [ref=e866]: Models
+                  - generic [ref=e867]:
+                    - img [ref=e868]
+                    - generic [ref=e871]: Open Group
+            - generic [ref=e872]:
+              - generic [ref=e873]:
+                - generic [ref=e874] [cursor=pointer]:
+                  - img [ref=e875]
+                  - text: VS Code
+                  - img [ref=e877]
+                - generic [ref=e880] [cursor=pointer]:
+                  - img [ref=e881]
+                  - text: Cursor
+                  - img [ref=e883]
+                - generic [ref=e886]:
+                  - img [ref=e887]
+                  - text: Generate MCP
+                  - img [ref=e891]
+              - generic [ref=e894]:
+                - link "Powered by Scalar" [ref=e896] [cursor=pointer]:
+                  - /url: https://www.scalar.com
+                - button "Set dark mode" [ref=e897] [cursor=pointer]:
+                  - generic "Set dark mode" [ref=e900]
+          - main "Open API Documentation for K0rdent AI API" [ref=e907]:
+            - generic [ref=e908]:
+              - generic "Developer Tools" [ref=e909]:
+                - generic [ref=e910]:
+                  - button "Developer Tools" [ref=e913] [cursor=pointer]:
+                    - img [ref=e914]
+                    - text: Developer Tools
+                  - button "Configure" [ref=e918] [cursor=pointer]:
+                    - text: Configure
+                    - img [ref=e919]
+                  - button "Share" [ref=e923] [cursor=pointer]:
+                    - text: Share
+                    - img [ref=e924]
+                  - button "Deploy" [ref=e928] [cursor=pointer]:
+                    - text: Deploy
+                    - img [ref=e929]
+              - region "Introduction" [ref=e933]:
+                - generic [ref=e934]:
+                  - generic [ref=e935]:
+                    - generic [ref=e936]: v0.2.0-draft
+                    - generic [ref=e937]: OAS 3.1.0
+                  - heading "K0rdent AI API" [level=1] [ref=e940]
+                  - generic [ref=e942]:
+                    - generic [ref=e943]:
+                      - generic [ref=e944]:
+                        - button "Download OpenAPI Document" [ref=e945] [cursor=pointer]:
+                          - generic [ref=e946]: Download OpenAPI Document
+                        - button "Download OpenAPI Document" [ref=e947] [cursor=pointer]:
+                          - generic [ref=e948]: Download OpenAPI Document
+                      - generic [ref=e951]:
+                        - paragraph [ref=e952]:
+                          - text: OpenAPI specification for the K0rdent AI GPU-as-a-Service platform.
+                          - strong [ref=e953]: "Custom Extensions:"
+                        - list [ref=e954]:
+                          - listitem [ref=e955]:
+                            - code [ref=e956]: x-visibility
+                            - text: ": Endpoint visibility —"
+                            - code [ref=e957]: internal
+                            - text: (Atlas only),
+                            - code [ref=e958]: public
+                            - text: (Arc only),
+                            - code [ref=e959]: "[internal, public]"
+                            - text: (common)
+                          - listitem [ref=e960]:
+                            - code [ref=e961]: x-status
+                            - text: ": Implementation status —"
+                            - code [ref=e962]: mvp
+                            - text: ","
+                            - code [ref=e963]: tbd
+                            - text: ","
+                            - code [ref=e964]: blocked
+                            - text: ","
+                            - code [ref=e965]: stretch
+                          - listitem [ref=e966]:
+                            - code [ref=e967]: x-source
+                            - text: ": Source document reference or"
+                            - code [ref=e968]: TBD
+                            - text: for fields pending confirmation
+                            - strong [ref=e969]: "Pagination:"
+                            - text: Cursor-based using
+                            - code [ref=e970]: pageToken
+                            - text: and
+                            - code [ref=e971]: pageSize
+                            - text: query parameters.
+                            - strong [ref=e972]: "Error Model:"
+                            - text: Standard
+                            - code [ref=e973]: "{ error: { code, message, details[] } }"
+                            - text: envelope.
+                    - generic [ref=e976]:
+                      - generic [ref=e977]:
+                        - generic [ref=e978]: Server
+                        - generic [ref=e980]:
+                          - generic [ref=e981]: "Server:"
+                          - generic [ref=e982]: https://api.k0rdent.ai
+                        - paragraph [ref=e984]: K0rdent AI API Gateway
+                      - region "Authentication Required" [ref=e987]:
+                        - generic [ref=e988]:
+                          - button "Authentication Required" [disabled] [expanded] [ref=e989]:
+                            - heading "Authentication Required" [level=2] [ref=e990]:
+                              - generic [ref=e992]:
+                                - generic [ref=e993]: Authentication
+                                - generic [ref=e994] [cursor=pointer]: Required
+                          - 'button "Selected Auth Type: bearerAuth" [ref=e997] [cursor=pointer]':
+                            - generic [ref=e998]: "Selected Auth Type:"
+                            - text: bearerAuth
+                            - img [ref=e999]
+                        - generic [ref=e1004]:
+                          - paragraph [ref=e1007]: Bearer token authentication using OAuth2/OIDC tokens
+                          - generic [ref=e1008]:
+                            - generic [ref=e1009]: Bearer Token
+                            - text: ":"
+                          - textbox "Token" [ref=e1011]
+                          - button "Show Password" [ref=e1012] [cursor=pointer]:
+                            - img [ref=e1013]
+                            - generic [ref=e1016]: Show Password
+                      - generic [ref=e1018]:
+                        - generic [ref=e1019]: Client Libraries
+                        - tablist "Client Libraries" [ref=e1020]:
+                          - generic [ref=e1021]:
+                            - tab "Shell" [selected] [ref=e1022] [cursor=pointer]:
+                              - img [ref=e1024]
+                              - generic [ref=e1026]: Shell
+                            - tab "Ruby" [ref=e1027] [cursor=pointer]:
+                              - img [ref=e1029]
+                              - generic [ref=e1031]: Ruby
+                            - tab "Node.js" [ref=e1032] [cursor=pointer]:
+                              - img [ref=e1034]
+                              - generic [ref=e1037]: Node.js
+                            - tab "PHP" [ref=e1038] [cursor=pointer]:
+                              - img [ref=e1040]
+                              - generic [ref=e1042]: PHP
+                            - tab "Python" [ref=e1043] [cursor=pointer]:
+                              - img [ref=e1045]
+                              - generic [ref=e1047]: Python
+                            - button "More Select from all clients" [ref=e1049] [cursor=pointer]:
+                              - generic [ref=e1053]: More
+                              - generic [ref=e1054]: Select from all clients
+                        - tabpanel "Shell" [ref=e1056]: Shell Curl
+              - generic [ref=e1057]:
+                - region "clusters (Collapsed)" [ref=e1059]:
+                  - generic [ref=e1062]:
+                    - heading "clusters (Collapsed)" [level=2] [ref=e1064]:
+                      - text: clusters
+                      - generic [ref=e1065]: (Collapsed)
+                    - button "Copy link" [ref=e1066] [cursor=pointer]:
+                      - generic [ref=e1069]: Copy link
+                  - generic [ref=e1071]:
+                    - paragraph [ref=e1074]: Kubernetes cluster management
+                    - group "clusters Operations" [ref=e1076]:
+                      - generic [ref=e1078]:
+                        - generic [ref=e1079]: clusters
+                        - text: Operations
+                      - list "clusters endpoints" [ref=e1081]:
+                        - listitem [ref=e1082]:
+                          - generic [ref=e1083] [cursor=pointer]:
+                            - generic [ref=e1084]: get
+                            - generic [ref=e1085]: "/v1/regions/{region}/projects/{project}/compute/clusters"
+                        - listitem [ref=e1086]:
+                          - generic [ref=e1087] [cursor=pointer]:
+                            - generic [ref=e1088]: post
+                            - generic [ref=e1089]: "/v1/regions/{region}/projects/{project}/compute/clusters"
+                        - listitem [ref=e1090]:
+                          - generic [ref=e1091] [cursor=pointer]:
+                            - generic [ref=e1092]: get
+                            - generic [ref=e1093]: "/v1/regions/{region}/projects/{project}/compute/clusters/{id}"
+                        - listitem [ref=e1094]:
+                          - generic [ref=e1095] [cursor=pointer]:
+                            - generic [ref=e1096]: patch
+                            - generic [ref=e1097]: "/v1/regions/{region}/projects/{project}/compute/clusters/{id}"
+                        - listitem [ref=e1098]:
+                          - generic [ref=e1099] [cursor=pointer]:
+                            - generic [ref=e1100]: delete
+                            - generic [ref=e1101]: "/v1/regions/{region}/projects/{project}/compute/clusters/{id}"
+                  - button "Show all clusters endpoints" [ref=e1102] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e1103]
+                - region "kubeconfigs (Collapsed)" [ref=e1107]:
+                  - generic [ref=e1110]:
+                    - heading "kubeconfigs (Collapsed)" [level=2] [ref=e1112]:
+                      - text: kubeconfigs
+                      - generic [ref=e1113]: (Collapsed)
+                    - button "Copy link" [ref=e1114] [cursor=pointer]:
+                      - generic [ref=e1117]: Copy link
+                  - generic [ref=e1119]:
+                    - paragraph [ref=e1122]: Kubeconfig issuance and management
+                    - group "kubeconfigs Operations" [ref=e1124]:
+                      - generic [ref=e1126]:
+                        - generic [ref=e1127]: kubeconfigs
+                        - text: Operations
+                      - list "kubeconfigs endpoints" [ref=e1129]:
+                        - listitem [ref=e1130]:
+                          - generic [ref=e1131] [cursor=pointer]:
+                            - generic [ref=e1132]: get
+                            - generic [ref=e1133]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs"
+                        - listitem [ref=e1134]:
+                          - generic [ref=e1135] [cursor=pointer]:
+                            - generic [ref=e1136]: post
+                            - generic [ref=e1137]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs"
+                        - listitem [ref=e1138]:
+                          - generic [ref=e1139] [cursor=pointer]:
+                            - generic [ref=e1140]: delete
+                            - generic [ref=e1141]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs/{id}"
+                        - listitem [ref=e1142]:
+                          - generic [ref=e1143] [cursor=pointer]:
+                            - generic [ref=e1144]: get
+                            - generic [ref=e1145]: "/v1/regions/{region}/projects/{project}/compute/clusters/{clusterId}/kubeconfigs/{id}/download"
+                  - button "Show all kubeconfigs endpoints" [ref=e1146] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e1147]
+                - region "instances (Collapsed)" [ref=e1151]:
+                  - generic [ref=e1154]:
+                    - heading "instances (Collapsed)" [level=2] [ref=e1156]:
+                      - text: instances
+                      - generic [ref=e1157]: (Collapsed)
+                    - button "Copy link" [ref=e1158] [cursor=pointer]:
+                      - generic [ref=e1161]: Copy link
+                  - generic [ref=e1163]:
+                    - paragraph [ref=e1166]: VM and baremetal instance lifecycle
+                    - group "instances Operations" [ref=e1168]:
+                      - generic [ref=e1170]:
+                        - generic [ref=e1171]: instances
+                        - text: Operations
+                      - list "instances endpoints" [ref=e1173]:
+                        - listitem [ref=e1174]:
+                          - generic [ref=e1175] [cursor=pointer]:
+                            - generic [ref=e1176]: get
+                            - generic [ref=e1177]: "/v1/regions/{region}/projects/{project}/compute/instances"
+                        - listitem [ref=e1178]:
+                          - generic [ref=e1179] [cursor=pointer]:
+                            - generic [ref=e1180]: post
+                            - generic [ref=e1181]: "/v1/regions/{region}/projects/{project}/compute/instances"
+                        - listitem [ref=e1182]:
+                          - generic [ref=e1183] [cursor=pointer]:
+                            - generic [ref=e1184]: get
+                            - generic [ref=e1185]: "/v1/regions/{region}/projects/{project}/compute/instances/{id}"
+                        - listitem [ref=e1186]:
+                          - generic [ref=e1187] [cursor=pointer]:
+                            - generic [ref=e1188]: patch
+                            - generic [ref=e1189]: "/v1/regions/{region}/projects/{project}/compute/instances/{id}"
+                        - listitem [ref=e1190]:
+                          - generic [ref=e1191] [cursor=pointer]:
+                            - generic [ref=e1192]: delete
+                            - generic [ref=e1193]: "/v1/regions/{region}/projects/{project}/compute/instances/{id}"
+                  - button "Show all instances endpoints" [ref=e1194] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e1195]
+                - region "networks (Collapsed)" [ref=e1199]:
+                  - generic [ref=e1202]:
+                    - heading "networks (Collapsed)" [level=2] [ref=e1204]:
+                      - text: networks
+                      - generic [ref=e1205]: (Collapsed)
+                    - button "Copy link" [ref=e1206] [cursor=pointer]:
+                      - generic [ref=e1209]: Copy link
+                  - generic [ref=e1211]:
+                    - paragraph [ref=e1214]: Network configuration and topology
+                    - group "networks Operations" [ref=e1216]:
+                      - generic [ref=e1218]:
+                        - generic [ref=e1219]: networks
+                        - text: Operations
+                      - list "networks endpoints" [ref=e1221]:
+                        - listitem [ref=e1222]:
+                          - generic [ref=e1223] [cursor=pointer]:
+                            - generic [ref=e1224]: get
+                            - generic [ref=e1225]: "/v1/regions/{region}/projects/{project}/compute/networks"
+                        - listitem [ref=e1226]:
+                          - generic [ref=e1227] [cursor=pointer]:
+                            - generic [ref=e1228]: post
+                            - generic [ref=e1229]: "/v1/regions/{region}/projects/{project}/compute/networks"
+                        - listitem [ref=e1230]:
+                          - generic [ref=e1231] [cursor=pointer]:
+                            - generic [ref=e1232]: get
+                            - generic [ref=e1233]: "/v1/regions/{region}/projects/{project}/compute/networks/{id}"
+                        - listitem [ref=e1234]:
+                          - generic [ref=e1235] [cursor=pointer]:
+                            - generic [ref=e1236]: patch
+                            - generic [ref=e1237]: "/v1/regions/{region}/projects/{project}/compute/networks/{id}"
+                        - listitem [ref=e1238]:
+                          - generic [ref=e1239] [cursor=pointer]:
+                            - generic [ref=e1240]: delete
+                            - generic [ref=e1241]: "/v1/regions/{region}/projects/{project}/compute/networks/{id}"
+                        - listitem [ref=e1242]:
+                          - generic [ref=e1243] [cursor=pointer]:
+                            - generic [ref=e1244]: get
+                            - generic [ref=e1245]: "/v1/regions/{region}/projects/{project}/compute/subnets"
+                        - listitem [ref=e1246]:
+                          - generic [ref=e1247] [cursor=pointer]:
+                            - generic [ref=e1248]: get
+                            - generic [ref=e1249]: "/v1/regions/{region}/projects/{project}/compute/subnets/{id}"
+                  - button "Show all networks endpoints" [ref=e1250] [cursor=pointer]:
+                    - text: Show More
+                    - img [ref=e1251]
+        - region "Notifications alt+T":
+          - list

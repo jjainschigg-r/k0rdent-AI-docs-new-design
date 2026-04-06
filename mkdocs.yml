@@ -1,0 +1,210 @@
+site_name: API Documentation
+site_description: Documentation for k0rdent AI.
+site_author: Mirantis, Inc.
+
+docs_dir: docs/
+edit_uri: https://github.com/k0rdent-AI-docs/edit/main/docs/
+
+copyright:
+  Copyright &copy; 2026 Mirantis | Documentation distributed under <a href="https://creativecommons.org/licenses/by/4.0/legalcode.txt">CC-BY-4.0</a>.
+
+theme:
+  name: "material"
+  highlightjs: true
+  language: "en"
+  custom_dir: docs/custom_theme
+
+  favicon: img/favicon-32x32.png
+  logo: img/k0rdent-ai-logo-horizontal-inverted.svg
+
+  palette:
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: custom/toggle-switch-day
+        name: Switch to light mode
+  features:
+    - toc.autohide
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - navigation.tracking   # Anchor tracking
+    - toc.follow            # Sidebar is automatically scrolled so that the active anchor is always visible
+    # - content.action.edit
+    # - content.action.view
+    - navigation.path       # Not working, for sponsors only
+    - navigation.indexes
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/newstyle.css
+
+extra_javascript:
+  - javascripts/feedback.js
+  - javascripts/plausible.js
+
+plugins:
+  - search
+  - ezglossary:
+      section_config:
+        - name: demo
+          inline_refs: short
+  - macros:
+      j2_variable_start_string: "{{{"
+      j2_variable_end_string: "}}}"
+  - exclude:
+      glob:
+        - "*.etag"
+        - Dockerfile.serve-dev
+        - Makefile*
+        - requirements_pip.txt
+        - requirements.txt
+  - include-markdown
+  - redirects:
+      redirect_maps:
+        api-specification/index.md: api-specification/overview.md
+
+nav:
+  # First item is the site default (landing page when visiting the docs root).
+  - Home: index.md
+  - API overview: api-specification/overview.md
+  - API Specification: api-reference/index.md
+
+markdown_extensions:
+  - callouts
+  - tables
+  - pymdownx.details
+  - pymdownx.highlight: {}
+  - pymdownx.superfences: {}
+  - pymdownx.inlinehilite: {}
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: "#"
+      toc_depth: 3
+  - def_list
+
+extra:
+  # docs_repo_name: k0rdent/docs
+  # repo_url: https://github.com/k0rdent/kcm
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/k0rdent/kcm
+      name: k0rdent on GitHub
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/k0rdent
+      name: k0rdent on X
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/k0rdent.bsky.social
+      name: k0rdent on BlueSky
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UChXQ6kbvjnAtdZAQpl7Fo4A
+      name: k0rdent on YouTube
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/k0rdent/
+      name: k0rdent on LinkedIn
+  version:
+    provider: mike
+    default: stable
+  analytics:
+  docsVersionInfo:
+    k0rdentName: k0rdent AI
+    k0rdentVersion: 1-7-0
+    k0rdentDotVersion: 1.7.0
+    ociRegistry: oci://ghcr.io/k0rdent/kcm/charts/kcm
+    k0rdentDigestValue: sha256:0eae48c8098e06138001578945657556ac9aeb21fe9e1f7c4aa8406f9c2f71f0
+    k0rdentDigestDate: Thu Oct 30 12:54:32 2025
+    k0rdentTagList: https://github.com/k0rdent/kcm/tags
+    kofVersions:
+      kofDotVersion: 1.7.1
+      kofOciRegistryBase: oci://ghcr.io/k0rdent/kof
+      kofOciRegistryBaseIstio: oci://ghcr.io/k0rdent/istio
+    providerVersions:
+      dashVersions:
+        clusterApi: 1-1-2
+        clusterApiProviderAws: 1-0-12
+        clusterApiProviderAzure: 1-0-14
+        clusterApiProviderDocker: 1-0-9
+        clusterApiProviderGcp: 1-0-9
+        clusterApiProviderIpam: 1-0-6
+        clusterApiProviderInfoblox: 1-0-5
+        clusterApiProviderOpenstack: 1-0-15
+        clusterApiProviderVsphere: 1-0-10
+        clusterApiProviderKubevirt: 1-0-0
+        regional: 1-7-0
+        k0smotron: 1-0-16
+        adoptedCluster: 1-0-1
+        awsEksCluster: 1-0-4
+        awsHostedCpCluster: 1-0-21
+        awsStandaloneCpCluster: 1-0-20
+        azureAksCluster: 1-0-2
+        azureHostedCpCluster: 1-0-23
+        azureStandaloneCpCluster: 1-0-20
+        dockerHostedCpCluster: 1-0-4
+        gcpGkeCluster: 1-0-7
+        gcpHostedCpCluster: 1-0-20
+        gcpStandaloneCpCluster: 1-0-18
+        kubevirtHostedCpCluster: 1-0-1
+        kubevirtStandaloneCpCluster: 1-0-1
+        openstackHostedCpCluster: 1-0-13
+        openstackStandaloneCpCluster: 1-0-22
+        remoteCluster: 1-0-19
+        vsphereHostedCpCluster: 1-0-19
+        vsphereStandaloneCpCluster: 1-0-18
+        sveltosProvider: 1-1-1
+      dotVersions:
+        clusterApi: 1.1.2
+        clusterApiProviderAws: 1.0.12
+        clusterApiProviderAzure: 1.0.14
+        clusterApiProviderDocker: 1.0.9
+        clusterApiProviderGcp: 1.0.9
+        clusterApiProviderOpenstack: 1.0.15
+        clusterApiProviderVsphere: 1.0.10
+        clusterApiProviderIpam: 1.0.6
+        clusterApiProviderInfoblox: 1.0.5
+        regional: 1.7.0
+        k0smotron: 1.0.16
+        adoptedCluster: 1.0.1
+        awsEksCluster: 1.0.4
+        awsHostedCpCluster: 1.0.21
+        awsStandaloneCpCluster: 1.0.20
+        azureAksCluster: 1.0.2
+        azureHostedCpCluster: 1.0.23
+        azureStandaloneCpCluster: 1.0.20
+        dockerHostedCpCluster: 1.0.4
+        gcpGkeCluster: 1.0.7
+        gcpHostedCpCluster: 1.0.20
+        gcpStandaloneCpCluster: 1.0.18
+        kubevirtHostedCpCluster: 1.0.1
+        kubevirtStandaloneCpCluster: 1.0.1
+        openstackHostedCpCluster: 1.0.13
+        openstackStandaloneCpCluster: 1.0.22
+        remoteCluster: 1.0.19
+        vsphereHostedCpCluster: 1.0.19
+        vsphereStandaloneCpCluster: 1.0.18
+    servicesVersions:
+      dashVersions:
+        certManager: 1-17-1
+        externalSecrets: 0-11-0
+        ingressNginx: 4-11-3
+        kyverno: 3-2-6
+        velero: 8-1-0
+      dotVersions:
+        certManager: 1.17.1
+        externalSecrets: 0.11.0
+        ingressNginx: 4.11.3
+        kyverno: 3.2.6
+        velero: 8.1.0
