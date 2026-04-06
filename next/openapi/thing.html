@@ -1,0 +1,9 @@
+<div id="redoc-container"></div>
+
+<script src="https://cdn.redoc.ly/redoc/v2.5.2/bundles/redoc.standalone.js"></script>
+<script>
+  (function () {
+    var specUrl = new URL("openapi.bundled.yaml", window.location.href).pathname;
+    Redoc.init(specUrl, {}, document.getElementById("redoc-container"));
+  })();
+</script>
